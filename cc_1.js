@@ -27,3 +27,20 @@ console.log("Product Name:", productName,"| Type:",typeof productName)
 console.log("Price:", productPrice, "| Type:",typeof productPrice)
 // Logs the products availability and its type within the console.
 console.log("Available?", isAvailable,"| Type:",typeof isAvailable)
+
+// Task 3: Financial Transactions
+// Declares the variable for the account balance 
+let accountBalance = 1000;
+console.log("Original Balance:" ,accountBalance)
+// Subtracts 250 from the original account balance.
+accountBalance -= 250;
+console.log("Balance Subtracted:" ,accountBalance); // New Balance: $750
+// Adds 400 to the new balance.
+accountBalance += 400;
+console.log("Balance Added:" ,accountBalance); // New Balance: $1150
+// Mulitplies the new account balance by 2.
+accountBalance *= 2;
+console.log("Balance Mulitplied:" ,accountBalance); // New Balance: $2300
+// Divides the newest account balance by 1.5.
+accountBalance /= 1.5;
+console.log("Balance Divided:" ,accountBalance); // New Balance: $1533.33
