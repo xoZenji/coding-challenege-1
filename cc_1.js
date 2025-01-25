@@ -51,3 +51,13 @@ let customerName = "John Smith";
 let welcomeMessage = "Welcome to the shop, "+ customerName +", we hope you find everything you need!";
 
 console.log(welcomeMessage);
+
+// Task 5: Access Control
+// Logic operation that displays either a welcome message if successful, or a "please try again" message if unsuccessful.
+let isLoggedIn = true;
+
+if (isLoggedIn) {
+    console.log("Welcome!");
+} else {
+    console.log("Please Try Again.");
+}
