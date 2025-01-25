@@ -44,3 +44,10 @@ console.log("Balance Mulitplied:" ,accountBalance); // New Balance: $2300
 // Divides the newest account balance by 1.5.
 accountBalance /= 1.5;
 console.log("Balance Divided:" ,accountBalance); // New Balance: $1533.33
+
+// Task 4: Customer Message
+// Assigns the customers name and displays a welcome message accordingly.
+let customerName = "John Smith";
+let welcomeMessage = "Welcome to the shop, "+ customerName +", we hope you find everything you need!";
+
+console.log(welcomeMessage);
